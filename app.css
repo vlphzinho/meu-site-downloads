@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+#doll-center{
+    text-align: center;
+}
+
+body {
+    font-family: "Noto Serif JP", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    /* Cor de fundo para o corpo da página */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.youtube-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.youtube-button:hover {
+    background-color: #cc0000;
+}
+
+.youtube-button i {
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* Cor de fundo para o conteúdo da página */
+}
+
+ul {
+    background-color: #333;
+    /* Cor de fundo para a lista */
+    font-size: 18pt;
+    /* Tamanho da fonte aumentado */
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    background-color: #ffa07a;
+    /* Cor de fundo para o cabeçalho */
+    padding: 20px;
+    border: solid 2px black;
+}
+
+li {
+    padding: 15px;
+    /* Espaçamento aumentado */
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+label {
+    color: white;
+}
+
+.downloads {
+    background-color: #000;
+    /* Cor de fundo para a área de downloads */
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20pt;
+    /* Tamanho da fonte aumentado para a área de downloads */
+}
+
+@media (max-width: 768px) {
+    ul {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
