@@ -85,6 +85,17 @@ label {
     color: white;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+
 .downloads {
     background-color: #000;
     /* Cor de fundo para a área de downloads */
