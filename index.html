@@ -15,7 +15,7 @@
   <div class="side-tab" id="sideTab">
     <div class="close-btn" onclick="toggleTab()">❌</div>
     <a href="pix:5eb77b47-54c1-4273-a89f-d5a88b5edac6?name=Victor">
-    <button class="donate-btn">Doar</button>
+    <button class="donate-btn" onclick="copiarChavePix()">Doar via Pix</button>
     </a>
     <!-- Conteúdo da aba lateral --> <br>
     Conteúdo da aba nao definido
@@ -204,6 +204,19 @@
     sideTab.style.left = "-300px";
   }
 }
+
+      
+    function copiarChavePix() {
+        const chavePix = "5eb77b47-54c1-4273-a89f-d5a88b5edac6";
+        const el = document.createElement("textarea");
+        el.value = chavePix;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand("copy");
+        document.body.removeChild(el);
+        alert("Chave Pix copiada! Cole-a em seu aplicativo bancário para completar a doação.");
+    }
+  
 
     </script>
   </body>
